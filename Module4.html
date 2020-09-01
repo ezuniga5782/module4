@@ -26,7 +26,40 @@
        <details>
         <summary>Additional Information</summary>
         <p>The details tag is not supported by Internet Explorer</p>
-    </details>    
+    </details>
+    <details open>
+        <summary>A collapsible table</summary>
+        <table border="1">
+           <tr>
+               <td>cell 1</td>
+               <td>cell 2</td>
+           </tr> 
+        </table>
+           </details>
+    <details>
+        <summary>An unordered list</summary>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </details>
+    <details>
+        <summary>First and unordered list</summary>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <details>
+                <summary>Now a ordered list</summary>
+                <ol>
+                    <li>First</li>
+                    <li>Second</li>
+                </ol>
+            </details>
+        </ul>
+    </details>             
+
+
         <footer>
             <p>Author: John Doe</p>
             <p>Email: John@Doe.com</p>           
